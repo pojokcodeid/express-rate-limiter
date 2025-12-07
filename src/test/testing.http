@@ -1,0 +1,12 @@
+### login process
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "12345"
+}
+
+### reset rate limit
+POST http://localhost:3000/api/rate-limit/reset
+
